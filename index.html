@@ -11,6 +11,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/bc719f0ade.js" crossorigin="anonymous"></script>
+    <style>
+
+        .header-section {
+            padding: 20px;
+            background-image: url("background/header-shapesmobile@2x.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            border-bottom-left-radius: 80px;
+        }
+
+        .contact-me {
+            border-top-left-radius: 100px;  
+            background-color: #6070ff;
+            background-image: url(background/contactformbackgroundshapes.png);
+            background-repeat: no-repeat;
+            background-position: top right;
+            height: 100%;
+        }
+    </style>
     <title>Document</title>
 </head>
 
@@ -24,7 +46,7 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                 <ul class="navbar-nav ml-auto">
-                    <li><a class="nav-link active" aria-current="page" href="#">Portfilio</a></li>
+                    <li><a class="nav-link active" aria-current="page" href="#">Portfolio</a></li>
                     <li><a class="nav-link" href="#">About</a></li>
                     <li><a class="nav-link" href="#">Contact</a></li>
                 </ul>
@@ -34,7 +56,7 @@
         </div>
     </nav>
 
-    <header class="container d-flex flex-column pt-5">
+    <header class="container d-flex flex-column p-5 header-section vh-100">
         <h1 class="p-2">We are Benabil</h1>
         <p class="p-2">We are software developers! We can help you build a product , feature or website Look through
             some
@@ -63,100 +85,105 @@
     <section class="works bg-light p-5">
         <article class="container rounded bg-white mt-5 mb-5">
             <div class="row p-sm-4 p-lg-5 pt-sm-4">
-            <img class="col-lg-6" src="images\SnapshootPortfolio.png" alt="Screenshot of the tonic project">
-            <div class="col-lg-6 p-3">
-                <h2>Tonic</h2>
-                <div class="d-flex flex-row">
-                    <p class="pr-2">CANOPY</p>
-                    <span class="pr-2">&#8226;</span>
-                    <p class="pr-2">Back End Dev</p>
-                    <span class="pr-2">&#8226;</span>
-                    <p class="pr-2">2015</p>
+                <img class="col-lg-6" src="images\SnapshootPortfolio.png" alt="Screenshot of the tonic project">
+                <div class="col-lg-6 p-3">
+                    <h2>Tonic</h2>
+                    <div class="d-flex flex-row">
+                        <p class="pr-2">CANOPY</p>
+                        <span class="pr-2">&#8226;</span>
+                        <p class="pr-2">Back End Dev</p>
+                        <span class="pr-2">&#8226;</span>
+                        <p class="pr-2">2015</p>
+                    </div>
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <ul class="d-flex flex-row list-unstyled">
+                        <li class="mr-4 p-2 rounded text-primary bg-light">html</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">css</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">javaScript</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
                 </div>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="d-flex flex-row list-unstyled">
-                    <li class="mr-4 p-2 rounded text-primary bg-light">html</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">css</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">javaScript</li>
-                </ul>
-                <button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
             </div>
-        </div>
         </article>
 
-
-        
-        <article class="container rounded bg-white mt-5 mb-5">
-            <div class="row p-sm-4 p-lg-5 pt-sm-4">
-            <img class="col-lg-6 order-lg-2" src="images\SnapshootPortfolio(1).png" alt="Screenshot of the tonic project">
-            <div class="col-lg-6 p-3 order-lg-1">
-                <h2>Multi-Post Stories</h2>
-                <div class="d-flex flex-row">
-                    <p class="pr-2">Facebook</p>
-                    <span class="pr-2">&#8226;</span>
-                    <p class="pr-2">Full Stack</p>
-                    <span class="pr-2">&#8226;</span>
-                    <p class="pr-2">2015</p>
-                </div>
-                <p>Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-                <ul class="d-flex flex-row list-unstyled">
-                    <li class="mr-4 p-2 rounded text-primary bg-light">html</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">Ruby on rails</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">css</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">javaScript</li>
-                </ul>
-                <button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
-            </div>
-        </div>
-        </article>
-
-         <article class="container rounded bg-white mt-5 mb-5">
-            <div class="row p-sm-4 p-lg-5 pt-sm-4">
-            <img class="col-lg-6" src="images\SnapshootPortfolio(3).png" alt="Screenshot of the tonic project">
-            <div class="col-lg-6 p-3">
-                <h2>Facebook 360</h2>
-                <div class="d-flex flex-row">
-                    <p class="pr-2">Facebook</p>
-                    <span class="pr-2">&#8226;</span>
-                    <p class="pr-2">Full Stack</p>
-                    <span class="pr-2">&#8226;</span>
-                    <p class="pr-2">2015</p>
-                </div>
-                <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-                <ul class="d-flex flex-row list-unstyled">
-                    <li class="mr-4 p-2 rounded text-primary bg-light">html</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">Ruby on rails</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">css</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">javaScript</li>
-                </ul>
-                <button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
-            </div>
-        </div>
-        </article>
 
 
         <article class="container rounded bg-white mt-5 mb-5">
             <div class="row p-sm-4 p-lg-5 pt-sm-4">
-            <img class="col-lg-6 order-lg-2" src="images\SnapshootPortfolio(4).png" alt="Screenshot of the tonic project">
-            <div class="col-lg-6 p-3 order-lg-1">
-                <h2>Uber Navigation</h2>
-                <div class="d-flex flex-row">
-                    <p class="pr-2">Uber</p>
-                    <span class="pr-2">&#8226;</span>
-                    <p class="pr-2">Lead Developer</p>
-                    <span class="pr-2">&#8226;</span>
-                    <p class="pr-2">2018</p>
+                <img class="col-lg-6 order-lg-2" src="images\SnapshootPortfolio(1).png"
+                    alt="Screenshot of the tonic project">
+                <div class="col-lg-6 p-3 order-lg-1">
+                    <h2>Multi-Post Stories</h2>
+                    <div class="d-flex flex-row">
+                        <p class="pr-2">Facebook</p>
+                        <span class="pr-2">&#8226;</span>
+                        <p class="pr-2">Full Stack</p>
+                        <span class="pr-2">&#8226;</span>
+                        <p class="pr-2">2015</p>
+                    </div>
+                    <p>Experimental content creation feature that allows users to add to an existing story over the
+                        course of a day without spamming their friends.</p>
+                    <ul class="d-flex flex-row list-unstyled">
+                        <li class="mr-4 p-2 rounded text-primary bg-light">html</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">Ruby on rails</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">css</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">javaScript</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
                 </div>
-                <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-                <ul class="d-flex flex-row list-unstyled">
-                    <li class="mr-4 p-2 rounded text-primary bg-light">html</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">Ruby on rails</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">css</li>
-                    <li class="mr-4 p-2 rounded text-primary bg-light">javaScript</li>
-                </ul>
-                <button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
             </div>
-        </div>
+        </article>
+
+        <article class="container rounded bg-white mt-5 mb-5">
+            <div class="row p-sm-4 p-lg-5 pt-sm-4">
+                <img class="col-lg-6" src="images\SnapshootPortfolio(3).png" alt="Screenshot of the tonic project">
+                <div class="col-lg-6 p-3">
+                    <h2>Facebook 360</h2>
+                    <div class="d-flex flex-row">
+                        <p class="pr-2">Facebook</p>
+                        <span class="pr-2">&#8226;</span>
+                        <p class="pr-2">Full Stack</p>
+                        <span class="pr-2">&#8226;</span>
+                        <p class="pr-2">2015</p>
+                    </div>
+                    <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and
+                        enjoy 360 photos and videos on Gear VR.</p>
+                    <ul class="d-flex flex-row list-unstyled">
+                        <li class="mr-4 p-2 rounded text-primary bg-light">html</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">Ruby on rails</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">css</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">javaScript</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
+                </div>
+            </div>
+        </article>
+
+
+        <article class="container rounded bg-white mt-5 mb-5">
+            <div class="row p-sm-4 p-lg-5 pt-sm-4">
+                <img class="col-lg-6 order-lg-2" src="images\SnapshootPortfolio(4).png"
+                    alt="Screenshot of the tonic project">
+                <div class="col-lg-6 p-3 order-lg-1">
+                    <h2>Uber Navigation</h2>
+                    <div class="d-flex flex-row">
+                        <p class="pr-2">Uber</p>
+                        <span class="pr-2">&#8226;</span>
+                        <p class="pr-2">Lead Developer</p>
+                        <span class="pr-2">&#8226;</span>
+                        <p class="pr-2">2018</p>
+                    </div>
+                    <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive
+                        computer: your car.</p>
+                    <ul class="d-flex flex-row list-unstyled">
+                        <li class="mr-4 p-2 rounded text-primary bg-light">html</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">Ruby on rails</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">css</li>
+                        <li class="mr-4 p-2 rounded text-primary bg-light">javaScript</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
+                </div>
+            </div>
         </article>
     </section>
 
@@ -164,7 +191,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <h2 class="p-2">About Myself</h2>
-                <p class="p-2">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
+                <p class="p-2">Hello I'm a software developer! I can help you build a product , feature or website Look
+                    through some of my work and experience! If you like what you see and have a project you need coded,
+                    don't hestiate to contact me.</p>
                 <p class="p-2">LET'S CONNECT</p>
                 <ul class="p-2 d-flex flex-row list-unstyled">
                     <li class="pr-3">
@@ -184,13 +213,13 @@
                     </li>
                 </ul>
                 <button type="button" class="btn btn-outline-primary btn-lg">Get My Resume</button>
-        </div>
-        <div class="col-lg-6">
-            <div class="d-flex justify-content-between align-items-center">
-                <p>Languages</p>
-                <i class="fa-solid fa-angle-down"></i> 
             </div>
-            
+            <div class="col-lg-6 mt-4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <p>Languages</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+
                 <div class="row">
                     <div class="col-lg-2">
                         <img src="./images/javascript.png" alt="javaScript icon">
@@ -205,17 +234,54 @@
                         <p>Css</p>
                     </div>
                 </div>
-            <div class="d-flex justify-content-between align-items-center">
-                <p>Frameworks</p>
-                <i class="fa-solid fa-angle-right"></i> 
+                <div class="d-flex justify-content-between align-items-center">
+                    <p>Frameworks</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <p>Skills</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
             </div>
-            <div class="d-flex justify-content-between align-items-center">
-                <p>Skills</p>
-                <i class="fa-solid fa-angle-right"></i> 
-            </div>
-        </div>
         </div>
     </section>
+
+
+
+
+    <footer class="container contact-me mt-5 mb-5">
+        <div class="d-flex flex-column align-items-center p-3">
+            <h2>Contact me</h2>
+            <p class="text-center w-50 pt-4">If you have an application you are interested in developing, a feature that
+                you need built or a project
+                that
+                needs coding. I'd love to help with it </p>
+        </div>
+        <div class=" d-flex flex-column align-items-center p-5">
+            <form action="https://formspree.io/f/xeqngele" method="post" class="col-8">
+
+                <div class="form-group">
+                    <label for="inputAddress"></label>
+                    <input type="text" class="form-control input-lg" id="inputAddress" placeholder="Type ypur username">
+                </div>
+                <div class="">
+                    <label for="exampleFormControlInput1"></label>
+                    <input type="email" class="form-control input-lg" id="exampleFormControlInput1"
+                        placeholder="Type in your email address">
+                </div>
+                <div class="">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control input-lg" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Leave us a message"></textarea>
+                </div>
+            </form>
+            <button class="btn btn-outline-primary btn-lg mt-5 justify-content-center" type="submit"
+                id="submit-button">Get in Touch</button>
+        </div>
+    </footer>
+
+
+
 </body>
 
 </html>
